@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Hello, I'm [ COLLIN GITHUKU]</h1>
+                <p>Aspiring Web Developer & Student</p>
+                <a href="#about" class="btn">Learn More About Me</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="profile-img">Your Photo Here</div>
+                    <div class="about-text">
+                        <p>Welcome to my portfolio! I'm a beginner web developer passionate about learning and creating amazing websites. Currently, I'm working on my Phase 0 project and excited to share my journey with you.</p>
+                        <p>I love problem-solving and turning ideas into reality through code. When I'm not coding, I enjoy reading, learning new technologies, and working on personal projects.</p>
+                        <p>I'm always eager to learn new skills and take on exciting challenges in web development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3>HTML</h3>
+                        <p>Building the structure of web pages with semantic HTML elements.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>CSS</h3>
+                        <p>Styling websites and creating responsive, beautiful designs.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>JavaScript</h3>
+                        <p>Adding interactivity and dynamic functionality to websites.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Problem Solving</h3>
+                        <p>Breaking down complex problems into manageable solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img">Project Image</div>
+                        <div class="project-info">
+                            <h3>Portfolio Website</h3>
+                            <p>My first portfolio website built with HTML, CSS, and JavaScript. Features responsive design and smooth animations.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img">Project Image</div>
+                        <div class="project-info">
+                            <h3>Coming Soon</h3>
+                            <p>More exciting projects will be added here as I continue learning and building new things!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>I'd love to hear from you! Feel free to reach out if you have any questions or opportunities.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>kigutacollingithuku076@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+254 718676201</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Nairobi, Kenya</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Collin Githuku]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
 </html>
